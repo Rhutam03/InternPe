@@ -10,6 +10,14 @@ comes from held-out data or cross-validation, never the training set, and the IP
 notebook shows how an easy mistake in the train/test split can make a model look
 far better than it is.
 
+## Live demos
+
+IPL win predictor: https://internpeproject.streamlit.app
+
+Diabetes risk checker: https://rhutam-diabetes-checker.streamlit.app
+
+Used car price estimator: https://rhutam-car-price.streamlit.app
+
 ## Projects
 
 ### 1. Diabetes prediction
