@@ -53,6 +53,9 @@ which is worth knowing before reaching for a heavier model.
 ## Data sources
 
 Pima Indians Diabetes dataset
+
 Used car listings scraped from Quikr
+
 IPL ball-by-ball data, seasons from 2008 to 2019
+
 Breast Cancer Wisconsin dataset 
