@@ -39,7 +39,7 @@ with the best score. That just picks a lucky test set, so instead I report 5-fol
 cross-validated R2 and mean absolute error in rupees, which is easier to read than
 R2 on its own.
 
-`notebooks/02_car_price_prediction.ipynb`, saved model in `models/`
+
 
 ### 3. IPL win predictor
 Estimating the chasing team's win probability from the live match state (runs left,
@@ -50,7 +50,7 @@ match instead, so no game appears in both train and test. The notebook trains bo
 ways on purpose to show the gap. The logistic regression is saved and served by the
 Streamlit app in `ipl-app/`.
 
-`notebooks/03_ipl_win_prediction.ipynb`
+
 
 ### 4. Breast cancer classification
 Classifying tumours as malignant or benign with a small Keras neural network, using
@@ -59,40 +59,9 @@ malignant case is the costly mistake. The honest takeaway is that on a dataset t
 small and this clean, the neural network does not beat the linear baseline by much,
 which is worth knowing before reaching for a heavier model.
 
-`notebooks/04_breast_cancer_classification.ipynb`
-
-## Running it
-
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# open the notebooks
-jupyter notebook
-
-# run the IPL app
-cd ipl-app
-streamlit run app.py
-```
-
-The IPL app loads the trained model from `pipe.pkl`, so it runs without retraining
-and is ready to deploy on Streamlit Community Cloud (`ipl-app/requirements.txt` lists
-just what the app needs).
-
-## Repository layout
-
-```
-data/                 datasets (IPL ball-by-ball data, Pima, Quikr cars)
-notebooks/            one notebook per project
-models/               saved car price model
-ipl-app/              Streamlit app + its trained model
-requirements.txt      pinned versions for the notebooks
-```
-
 ## Data sources
 
-- Pima Indians Diabetes dataset
-- Used car listings scraped from Quikr
-- IPL ball-by-ball data, seasons 2008 to 2019
-- Breast Cancer Wisconsin dataset (loaded from scikit-learn)
+Pima Indians Diabetes dataset
+Used car listings scraped from Quikr
+IPL ball-by-ball data, seasons from 2008 to 2019
+Breast Cancer Wisconsin dataset 
