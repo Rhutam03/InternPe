@@ -1,10 +1,13 @@
 import pickle
+from pathlib import Path
+
 import pandas as pd
 import streamlit as st
 
 # trained in ../notebooks/03_ipl_win_prediction.ipynb (logistic regression,
 # split by match so the score is not inflated by leakage)
-with open("pipe.pkl", "rb") as f:
+model_path = Path(__file__).parent / "pipe.pkl"
+with open(model_path, "rb") as f:
     pipe = pickle.load(f)
 
 teams = sorted([
