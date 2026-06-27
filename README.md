@@ -10,15 +10,6 @@ comes from held-out data or cross-validation, never the training set, and the IP
 notebook shows how an easy mistake in the train/test split can make a model look
 far better than it is.
 
-## Results
-
-| Project | Task | Data | Headline result |
-| --- | --- | --- | --- |
-| Diabetes prediction | Classification | Pima, 768 patients | ROC-AUC 0.81; recall raised 0.50 to 0.69 by lowering the threshold |
-| Used car price | Regression | Quikr scrape, ~800 cars | R2 0.64 (5-fold CV), MAE about Rs 1.5 lakh |
-| IPL win predictor | Classification | Ball-by-ball, 2008-2019 | Accuracy 0.73 on unseen matches after fixing data leakage |
-| Breast cancer | Neural network | Wisconsin, 569 samples | ROC-AUC 0.995, recall 0.95 on malignant; level with a logistic-regression baseline (AUC 0.996) |
-
 ## Projects
 
 ### 1. Diabetes prediction
