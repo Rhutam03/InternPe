@@ -1,9 +1,9 @@
 # InternPe Machine Learning Projects
 
-Four machine learning projects from my InternPe internship (February to March 2024):
+Four machine learning projects from my InternPe internship :
 two classification problems, one regression problem, and a small neural network.
 Each notebook runs from the raw data through to an evaluated model, and the IPL
-project also ships a small Streamlit app.
+project is deployed using the Streamlit app.
 
 The thing I paid most attention to here is honest evaluation. Every score below
 comes from held-out data or cross-validation, never the training set, and the IPL
