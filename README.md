@@ -29,7 +29,7 @@ split only. Because this is a screening problem I care about recall, not just
 accuracy, so I compare models on ROC-AUC and show how lowering the decision
 threshold catches more diabetic patients at the cost of some precision.
 
-`notebooks/01_diabetes_prediction.ipynb`
+
 
 ### 2. Used car price prediction
 Predicting resale price from a messy Quikr scrape, so most of the work is cleaning:
