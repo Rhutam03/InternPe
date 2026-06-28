@@ -10,7 +10,7 @@ comes from held-out data or cross-validation, never the training set, and the IP
 notebook shows how an easy mistake in the train/test split can make a model look
 far better than it is.
 
-## Live demos
+## App Links
 
 IPL win predictor: https://internpeproject.streamlit.app
 
@@ -54,9 +54,7 @@ Streamlit app in `ipl-app/`.
 ### 4. Breast cancer classification
 Classifying tumours as malignant or benign with a small Keras neural network, using
 logistic regression as a baseline. Malignant is the positive class because a missed
-malignant case is the costly mistake. The honest takeaway is that on a dataset this
-small and this clean, the neural network does not beat the linear baseline by much,
-which is worth knowing before reaching for a heavier model.
+malignant case is the costly mistake. The dataset used here is small and this clean, the neural network does not beat the linear baseline by much, which is worth knowing before reaching for a heavier model.
 
 ## Data sources
 
