@@ -5,11 +5,6 @@ two classification problems, one regression problem, and a small neural network.
 Each notebook runs from the raw data through to an evaluated model, and the IPL
 project is deployed using the Streamlit app.
 
-The thing I paid most attention to here is honest evaluation. Every score below
-comes from held-out data or cross-validation, never the training set, and the IPL
-notebook shows how an easy mistake in the train/test split can make a model look
-far better than it is.
-
 ## App Links
 
 IPL win predictor: https://internpeproject.streamlit.app
